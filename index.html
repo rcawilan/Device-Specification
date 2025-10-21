@@ -10,25 +10,41 @@
 </head>
 
 <body class="bg-dark text-white">
-    <nav class="navbar navbar-dark bg-dark py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
         <div class="container px-3">
-            <a class="navbar-brand fw-bold fs-4" href="#">JBL</a>
+            <a class="navbar-brand" href="#home">
+                <img src="JBL-Logo.png" alt="JBL Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specifications">Specifications</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container px-3 py-5">
-        <div class="row align-items-center g-4 mb-5">
+        <div id="home" class="row align-items-center g-4 mb-5 pt-5">
             <div class="col-lg-6 text-center text-lg-start">
                 <p class="text-secondary mb-2 fs-2">JBL Live 770NC</p>
                 <h1 class="display-3 fw-bold mb-4">ONLY MUSIC.<br>NOTHING ELSE.</h1>
                 <p class="lead mb-4">Wireless Over-Ear Headphones with True Adaptive Noise Cancelling</p>
             </div>
             <div class="col-lg-6 text-center">
-                <img src="JBL770NC.png" alt= "JBL Live 770NC" class="img-fluid rounded shadow">
+                <img src="JBL770NC.png" alt="JBL Live 770NC" class="img-fluid rounded shadow">
             </div>
         </div>
 
-        <div class="row align-items-center g-5 mb-5">
+        <div id="specifications" class="row align-items-center g-5 mb-5 pt-5">
             <div class="col-lg-6">
                 <div class="row g-4 text-center text-lg-start">
                     <div class="col-6">
@@ -79,7 +95,7 @@
                 </p>
             </div>
             <div class="col-lg-6 text-center order-1 order-lg-2">
-                <img src="JBLLIVE.png" alt= "JBL Live 770NC White" class="img-fluid rounded shadow">
+                <img src="JBLLIVE.png" alt="JBL Live 770NC White" class="img-fluid rounded shadow">
             </div>
         </div>
     </div>
